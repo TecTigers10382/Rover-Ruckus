@@ -17,23 +17,9 @@ import com.qualcomm.robotcore.util.Range;
     TeleOp Code for competition with REV robotics smart servo instead of a 
     motor for the upper arm
     Edit log: 
-    A. Reyes on 12/5/18
-       Added deadzones to arm controls
-    A. Reyes on 12/5/18
-        added deadzones to drive code to prevent possible coninuous movement like 
-            what happened with the arm motors
-        added latching servo
-        added encoders and encoder telemetry
-    A. Reyes on 12/8/18
-        removed telemetry values
-        added speedCut telemetry to the top
-    A. Reyes on 12/14/18
-        replaced upper arm motor with CRServo
-        Programmed for VEX 393
-        added more comments for code
-    A. Reyes on 1/3/19
-        replaced upper arm servo with DcMotor
-        changed variable upperArmServo to upperArmMotor
+    P. SebaRaj on 1/6/19
+       Created - for next time, fix strafe
+   
 */
 public class TeleStrafeWREV extends OpMode
 {
